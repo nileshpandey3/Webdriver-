@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01300fdd-e3a0-4078-8281-6d521624b7b3" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Webdriver.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Webdriver.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LoginPortal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LoginPortal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/BaseTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,10 +26,12 @@
       <file leaf-file-name="BaseTests.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/BaseTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+            <state relative-caret-position="586">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1623#1624#0" expanded="true" />
+                <element signature="e#1652#1653#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -83,10 +83,6 @@
               <item name="Webdriver" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Webdriver" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -116,9 +112,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.BaseTests">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="BaseTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Webdriver" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BaseTests" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="BaseTests.goToHomeUrl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Webdriver" />
@@ -175,8 +188,13 @@
       <properties />
       <listeners />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.BaseTests.goToHomeUrl" />
+      <item itemvalue="JUnit.BaseTests" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BaseTests" />
         <item itemvalue="JUnit.BaseTests.goToHomeUrl" />
       </list>
     </recent_temporary>
@@ -195,8 +213,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BaseTests_goToHomeUrl - 2019.08.07 at 01h 26m 18s.xml">
+    <history-entry file="BaseTests_goToHomeUrl - 2019.08.22 at 23h 28m 25s.xml">
       <configuration name="BaseTests.goToHomeUrl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseTests_goToHomeUrl - 2019.08.22 at 23h 29m 45s.xml">
+      <configuration name="BaseTests.goToHomeUrl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseTests_goToHomeUrl - 2019.08.22 at 23h 33m 06s.xml">
+      <configuration name="BaseTests.goToHomeUrl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseTests_goToHomeUrl - 2019.08.24 at 20h 32m 53s.xml">
+      <configuration name="BaseTests.goToHomeUrl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseTests_goToHomeUrl - 2019.08.24 at 20h 34m 18s.xml">
+      <configuration name="BaseTests.goToHomeUrl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseTests - 2019.08.24 at 20h 39m 19s.xml">
+      <configuration name="BaseTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseTests - 2019.08.24 at 20h 40m 13s.xml">
+      <configuration name="BaseTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseTests_goToHomeUrl - 2019.08.24 at 20h 40m 31s.xml">
+      <configuration name="BaseTests.goToHomeUrl" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseTests - 2019.08.24 at 20h 40m 56s.xml">
+      <configuration name="BaseTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BaseTests - 2019.08.24 at 20h 41m 27s.xml">
+      <configuration name="BaseTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -215,7 +260,7 @@
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19027779" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" />
@@ -243,10 +288,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/BaseTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+        <state relative-caret-position="586">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1623#1624#0" expanded="true" />
+            <element signature="e#1652#1653#0" expanded="true" />
           </folding>
         </state>
       </provider>
